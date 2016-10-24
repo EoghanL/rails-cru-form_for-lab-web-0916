@@ -1,0 +1,5 @@
+<%= form_for @artist do |f| %>
+  <%= f.text_field :name, id: 'artist[name]'%>
+  <%= f.text_area :bio, id: 'artist[bio]' %>
+  <%= f.submit %>
+<% end %>
